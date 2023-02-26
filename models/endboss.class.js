@@ -20,7 +20,7 @@ class Endboss extends MovableObject {
     this.loadImage(this.images_walking[0]);
     this.loadImages(this.images_walking);
 
-    this.x = 720;
+    this.x = 720 * 5;
     // this.speed = 0.15 + Math.random() * 0.5;
 
     this.animate();
